@@ -1,0 +1,23 @@
+{
+  "name": "cypressmasterclass",
+  "version": "1.0.0",
+  "description": "Masterclass realizada no dia 07/08 - Framework usado Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KiraOliveira/cypressMasterclass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KiraOliveira/cypressMasterclass/issues"
+  },
+  "homepage": "https://github.com/KiraOliveira/cypressMasterclass#readme",
+  "dependencies": {
+    "cypress": "^14.5.4"
+  }
+}
