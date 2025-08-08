@@ -46,6 +46,27 @@ describe("Cadastro", () => {
       .and('have.text', 'Informe um email válido')
   });
 
+  // Erro ao inserir um CPF inválido
+  it("Não deve cadastrar com CPF inválido", () => {
+    
+    const walker = {
+        name: 'Kira Oliveira',
+        email: 'kira@walkdog.com',
+        cpf:'11111111111',
+        cep: '87210296',
+        number: '2',
+        info: 'Apartamento 3',
+        document: 'rg.png'
+    }
+
+    cy.submitSignupForm(walker)
+
+    // // Validando que exibiu a mensagem de erro abaixo do campo CPF
+    cy.get('.alert-error')
+      .should('be.visible')
+      .and('have.text', 'CPF inválido')
+  });
+
   it("Não deve cadastrar quando o número for menor que '0'", () => {
     
     const walker = {

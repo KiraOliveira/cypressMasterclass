@@ -37,6 +37,17 @@ describe("Cadastro", () => {
       .and('have.text', 'Informe um email válido')
   });
 
+  // Erro ao inserir um CPF inválido
+  it("Não deve cadastrar com CPF inválido", () => {
+
+    cy.submitSignupForm({...walker, cpf:'11111111111'}) // Usando os '...' estamos espalhamento de objetos dentro das {}
+
+    // Validando que exibiu a mensagem de erro abaixo do campo CPF
+    cy.get('.alert-error')
+      .should('be.visible')
+      .and('have.text', 'CPF inválido')
+  });
+
   it("Não deve cadastrar quando o número for menor que '0'", () => {
 
     cy.submitSignupForm({...walker, number:'0'}) // Usando os '...' estamos espalhamento de objetos dentro das {}
