@@ -57,7 +57,5 @@ npx cypress open ou npx cypress run(heandless)
 
 ## Execução dos testes
 
-[![Execução - Fluxo Cadastro: Sucesso e Erro]](https://github.com/user-attachments/assets/20911745-9bc1-49a2-92b7-985c6c6d1931)
-
 <img width="826" height="220" alt="result" src="https://github.com/user-attachments/assets/cbf2e044-3587-4ab4-9f54-e7498a1a8120" />
 
