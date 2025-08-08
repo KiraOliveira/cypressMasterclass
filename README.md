@@ -15,10 +15,7 @@ O site [Walkdog](https://walkdog.vercel.app/) foi utilizado para realizar a auto
 ## Tecnologias Utilizadas
 
 - Cypress 14.x
-- Cypress-Cucumber-Preprocessor
-- Cypress-XPath
 - JavaScript
-- Gherkin
 - VS Code
 
 ---
@@ -60,6 +57,6 @@ npx cypress open ou npx cypress run(heandless)
 
 ## Execução dos testes
 
-[![Execução dos Testes]](https://github.com/user-attachments/assets/96366a67-9a76-4c53-afe6-c885ee1df527)
+[![Execução - Fluxo Cadastro: Sucesso e Erro]](https://github.com/user-attachments/assets/e4eb11f9-244d-40e2-b8c0-6b677e93d2ea)
 
-
+<img width="832" height="228" alt="result" src="https://github.com/user-attachments/assets/fbb4ec96-da6b-4187-ae3c-7c6a4c45b8fa" />
